@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="DSC VIT (Developer Student Club JSS Noida) is a Google Developers program for university students, with an aim to help students increase their network build their development skills.">
+    <meta name="theme-color" content="#17a2b8">
+    <meta name="msapplication-navbutton-color" content="#17a2b8">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#17a2b8">
+   <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       <!-- Favicon linking -->
+       <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+       <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+       <!-- Favicon linking ends -->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Events | DSC JSS</title>
+    <style>
+    
+    /* Scrollbar */
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #007bff; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #17a2b8; 
+}
+
+    
+    </style>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  
+    <script >
+      $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+          $('nav').addClass('boxS');
+        }
+        else{
+          $('nav').removeClass('boxS');
+        }
+      })
+  
+    </script>
+</head>
+<body style="overflow-x: hidden;" onload="preloader()">
+
+<!-- Preloader -->
+
+<div id="loader_page">
+  <img src="img/giphy.gif" alt="" class="img-fluid" width="30%">
+</div>
+  
+<!-- Preloader Ends -->
+
+    <nav  class=" navbar navbar-expand-lg navbar-light bg-light  " style=" overflow-x: hidden;  position: fixed; width: 100%; top: 0px; z-index: 1; ">
+
+      <a class="navbar-brand" href="index.html" >
+        <img class="logo1" src="img/logo.png" style="height: 37px;  width: 80px; opacity: 1; " alt="">
+            <img class="logo2"  src="img/dsc_linear.png" style="max-width: 400px; height: 37px; opacity: 1; " alt="">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="position: inherit; right: 2%;">
+          <ul class="navbar-nav" >
+            <li class="nav-item " >
+              <a class="nav-link" href="index.html" >Home </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" style="border-bottom: 2px solid #007bff;">Events<span class="sr-only">(current)</span>&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                
+                <a class="nav-link contact"  href="contact.html"> <span class="cta">Contact</span> </a>
+              </li>
+           
+          </ul>
+        </div>
+        <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+
+          
+      </nav>
+      
+      <br><br><br><br><br>
+<!-- Mobile menu -->
+<div id="mobile__menu" class="overlay">
+    <div class="overlay__content">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="#">Events</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+</div>
+
+<!-- Content -->
+<div style="font-size:6vw; display: flex; margin-left: 5%; margin-right: 5%; justify-content: center; align-items: center; padding:15px; margin-bottom: 50px; color: #17a2b8; border: 2px dashed #17a2b8;">News & Events!</div>
+
+
+  <div class="evenntContainer">
+
+    <div class="row" style="margin-top:70px">
+
+
+      <div class="col-md-4" data-aos="zoom-in">
+      
+        <div class="card card2" style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);" >
+          <img class="card-img-top" style="height: 150px;" src="img/android.svg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; font-weight: bold;">Android Workshop</h5>
+            <p class="card-text" style="text-align: center;">
+              <i class='fa fa-calendar' style='font-size:24px'></i>&nbsp; 12th -14th February 2020 <br>
+              <i class='fa fa-clock-o' style='font-size:24px'></i> &nbsp;4.30-6.30 pm <br>
+              <i class='fa fa-map-marker' style='font-size:24px'></i>&nbsp; MMIL Lab, AB3 <br>
+              <a href="http://bit.ly/dscjss-android" target="_blank" class="btn btn-primary" style="margin-top: 10px;">Register</a>
+            </p>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="col-md-4" data-aos="zoom-in">
+      
+        <div class="card card2" style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);" >
+          <img class="card-img-top" style="height: 150px; " src="img/brain.svg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; font-weight: bold;">Explore ML Workshop</h5>
+            <p class="card-text" style="text-align: center;">
+              <i class='fa fa-calendar' style='font-size:24px'></i>&nbsp; 19th -20th November 2019 <br>
+              <i class='fa fa-clock-o' style='font-size:24px'></i> &nbsp;4.30-7.00 pm <br>
+              <i class='fa fa-map-marker' style='font-size:24px'></i>&nbsp; Rooom no. 116, AB3 <br>
+              <a href="http://bit.ly/dscexploreml" target="_blank" class="btn btn-primary disabled" style="margin-top: 10px;">Register</a>
+            </p>
+            
+          </div>
+        </div>
+      
+      </div>
+      
+      
+      <div class="col-md-4" data-aos="zoom-in">
+      
+        <div class="card card2" style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);" >
+          <img class="card-img-top" style="height: 150px;" src="img/hackdays.svg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; font-weight: bold;">Hack Days 1.0 (Web Development)</h5>
+            <p class="card-text" style="text-align: center;">
+              <i class='fa fa-calendar' style='font-size:24px'></i>&nbsp; 11th September 2019 <br>
+              <i class='fa fa-clock-o' style='font-size:24px'></i> &nbsp;4.30-6.30 pm <br>
+              <i class='fa fa-map-marker' style='font-size:24px'></i>&nbsp; Lab 9,10 , AB3 <br>
+              <a href="http://bit.ly/dscexploreml" target="_blank" class="btn btn-primary disabled" style="margin-top: 10px;">Register</a>
+            
+            
+            </p>
+            
+          </div>
+        </div>
+      
+      </div>
+      
+      </div>
+
+  </div>
+
+  
+  
+
+
+
+
+
+</div>
+
+
+
+
+<!-- Footer -->
+
+<footer style="display: flex; justify-content: center; text-align: center; flex-direction: column;" >
+
+
+
+
+<div class="getintouch " data-aos="fade-up" style="margin-top: 40px;">
+  <a href="mailto:admin@dscjss.in" class="btn btn-dark">Get in Touch</a>
+</div>
+
+
+
+<div class="social" data-aos="fade-up" style="margin-top: 30px; margin-bottom: 100px;">
+<a href="https://www.facebook.com/dscjssnoida/" target="_blank" style="text-decoration: none; color: grey;"><i class='fa fa-facebook-square' id="links" style='font-size:36px; '></i></a>
+<a href="https://github.com/DSC-JSS-NOIDA" target="_blank" style="text-decoration: none; color: grey;"><i class='fa fa-github' id="links" style='font-size:36px; '></i></a>
+<a href="https://www.linkedin.com/company/developer-student-clubs/" target="_blank" style="text-decoration: none; color: grey;"><i class="fa fa-linkedin-square" style="font-size:36px" id="links"></i></a>
+<a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" style="text-decoration: none; color: grey;"><i class="fa fa-instagram" style="font-size:36px" id="links" ></i></a>
+</div>
+
+
+
+
+</footer>
+
+<script>
+  function preloader(){
+    document.getElementById('loader_page').style.display="none";
+    document.getElementById('main_content').style.opacity="1";
+  }
+  
+  </script>
+<script>
+
+function openNav() {
+
+if(document.getElementById('mobile__menu').className=="overlay"){
+     document.getElementById("mobile__menu").classList.add('overlay_clicked');
+     document.getElementById('menu').innerText='close';
+     document.getElementById('menu').style.backgroundColor='#17a2b8';
+     document.getElementById('menu').style.opacity='.7';
+     document.getElementById('menu').style.color='white';
+     document.getElementById('menu').style.borderColor='#17a2b8';
+
+
+}
+
+else{
+     document.getElementById("mobile__menu").classList.remove('overlay_clicked');  
+     document.getElementById("mobile__menu").classList.add('overlay');
+     document.getElementById('menu').innerText='menu';
+     document.getElementById('menu').style.backgroundColor='white';
+     document.getElementById('menu').style.color='black';
+
+}
+
+}
+
+
+</script>
+ 
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
