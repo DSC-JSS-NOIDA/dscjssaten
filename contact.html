@@ -26,23 +26,27 @@
     /* Scrollbar */
 
 
+/* width */
 ::-webkit-scrollbar {
-  width: 12px;
-}
+					width: 10px;
+				}
 
+				/* Track */
+				::-webkit-scrollbar-track {
+					box-shadow: inset 0 0 5px grey; 
+					border-radius: 10px;
+				}
 
+				/* Handle */
+				::-webkit-scrollbar-thumb {
+					background: #9F9DC1; 
+					border-radius: 10px;
+				}
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #007bff; 
-  border-radius: 0px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #17a2b8; 
-}
-
+				/* Handle on hover */
+				::-webkit-scrollbar-thumb:hover {
+					background: #363056; 
+				}
     
     </style>
 
@@ -98,7 +102,7 @@
               </li>
               <li class="nav-item active">
                 
-                <a class="nav-link contact"  href="#" >  <span class="cta">Contact<span class="sr-only">(current)</span></span> </a>
+                <a class="nav-link "  href="#"  style="border-bottom: 2px solid #007bff;"> Contact </a>
               </li>
            
           </ul>
