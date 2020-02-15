@@ -77,7 +77,7 @@
   
 <!-- Preloader Ends -->
 <div id="main_content">
-    <nav class=" navbar navbar-expand-lg navbar-light bg-light  " style=" overflow-x: hidden;  position: fixed; width: 100%; top: 0px; z-index: 1; ">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light  " style=" overflow-x: hidden;  position: fixed; width: 100%; top: 0px; z-index: 999;">
     
       
       <a class="navbar-brand" href="index.html"  >
@@ -115,7 +115,7 @@
       
       <br><br><br><br><br>
 <!-- Mobile menu -->
-<div id="mobile__menu" class="overlay">
+<div id="mobile__menu" class="overlay" style="z-index: 999999;">
     <div class="overlay__content">
         <a href="#">Home</a>
         <a href="team.html">Team</a>
@@ -316,7 +316,8 @@ function preloader(){
   function openNav() {
 
     if(document.getElementById('mobile__menu').className=="overlay"){
-         document.getElementById("mobile__menu").classList.add('overlay_clicked');
+    	// document.getElementById("mobile__menu").classList.remove('overlay'); 
+    	document.getElementById("mobile__menu").classList.add('overlay_clicked');
          document.getElementById('menu').innerText='close';
          document.getElementById('menu').style.backgroundColor='#17a2b8';
          document.getElementById('menu').style.opacity='.7';
