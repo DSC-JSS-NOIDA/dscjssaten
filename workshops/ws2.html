@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tarun Shekher. Co-authored by: Naman Shankhydhar and Akansha (WEB Team,DSC-JSS,Noida)">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#17a2b8">
+    <meta name="msapplication-navbutton-color" content="#17a2b8">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#17a2b8">
+   <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/workshops.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      
+          <!-- Favicon linking -->
+          <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+          <!-- Favicon linking ends -->
+
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Developers Student Club JSS</title>
+    <style>
+    
+/* width */
+::-webkit-scrollbar {
+					width: 10px;
+				}
+
+				/* Track */
+				::-webkit-scrollbar-track {
+					box-shadow: inset 0 0 5px grey; 
+					border-radius: 10px;
+				}
+
+				/* Handle */
+				::-webkit-scrollbar-thumb {
+					background: #9F9DC1; 
+					border-radius: 10px;
+				}
+
+				/* Handle on hover */
+				::-webkit-scrollbar-thumb:hover {
+					background: #363056; 
+				}
+    
+    </style>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  
+    <script >
+      $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+          $('nav').addClass('boxS');
+        }
+        else{
+          $('nav').removeClass('boxS');
+        }
+      })
+  
+    </script>
+  
+</head>
+<body style="overflow-x: hidden;" onload="preloader()"> 
+
+<!-- Preloader -->
+
+<div id="loader_page">
+  <img src="../img/giphy.gif" alt="" class="img-fluid" width="30%">
+</div>
+  
+  
+<!-- Preloader Ends -->
+<div id="main_content">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light  " style=" overflow-x: hidden;  position: fixed; width: 100%; top: 0px; z-index: 999;">
+    
+      
+      <a class="navbar-brand" href="../index.html"  >
+        <img class="logo1" src="../img/logo.png" style="height: 37px; width: 80px; opacity: 1; " alt="">
+            <img class="logo2"  src="../img/dsc_linear.png" style="max-width: 400px; height: 37px; opacity: 1; " alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="position: inherit; right: 2%;">
+          <ul class="navbar-nav" >
+            <li class="nav-item active" >
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="border-bottom: 2px solid #007bff;"><span class="sr-only">(current)</span>Workshops</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link "  href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+        
+
+          
+      </nav>
+      
+      <br><br><br><br><br>
+<!-- Mobile menu -->
+<div id="mobile__menu" class="overlay" style="z-index: 999999;">
+    <div class="overlay__content">
+        <a href="../index.html">Home</a>
+        <a href="../team.html">Team</a>
+        <a href="../events.html">Events</a>
+        <a href="../projects.html">Projects</a>
+        <a href="#">Workshops</a>
+        <a href="../contact.html">Contact</a>
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <div style="font-size:40px; display: flex; margin-left: 4%; margin-right: 4%; justify-content: center; align-items: center;  margin-bottom: 35px; font-weight: bold;">Android Workshop</div>
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8" style="height: 400px;">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnbVv2dQR-LSMHkfSnF2dIBKCjn5I3qG63fsesJyRYidrNYP2c_Pjj1CVBVxoHZQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style="display: flex; justify-content: center; text-align: center; flex-direction: column;" >
+
+
+
+
+    <div class="getintouch " data-aos="fade-up" style="margin-top: 40px;">
+      <a href="mailto:admin@dscjss.in" class="btn btn-dark">Get in Touch</a>
+    </div>
+    
+    
+    
+    <div class="social" data-aos="fade-up" style="margin-top: 30px; margin-bottom: 100px;">
+    <a href="https://www.facebook.com/dscjssnoida/" target="_blank" style="text-decoration: none; color: grey;"><i class='fa fa-facebook-square' id="links" style='font-size:36px; '></i></a>
+    <a href="https://github.com/DSC-JSS-NOIDA" target="_blank" style="text-decoration: none; color: grey;"><i class='fa fa-github' id="links" style='font-size:36px; '></i></a>
+    <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank" style="text-decoration: none; color: grey;"><i class="fa fa-linkedin-square" style="font-size:36px" id="links"></i></a>
+    <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" style="text-decoration: none; color: grey;"><i class="fa fa-instagram" style="font-size:36px" id="links" ></i></a>
+    </div>
+    
+    
+    
+    
+    </footer>
+    
+    </div>
+    
+    <script>
+    function preloader(){
+      document.getElementById('loader_page').style.display="none";
+      document.getElementById('main_content').style.opacity="1";
+    }
+    
+    </script>
+    
+    
+    <script>
+    
+    
+      
+      function openNav() {
+    
+        if(document.getElementById('mobile__menu').className=="overlay"){
+            // document.getElementById("mobile__menu").classList.remove('overlay'); 
+            document.getElementById("mobile__menu").classList.add('overlay_clicked');
+             document.getElementById('menu').innerText='close';
+             document.getElementById('menu').style.backgroundColor='#17a2b8';
+             document.getElementById('menu').style.opacity='.7';
+             document.getElementById('menu').style.color='white';
+             document.getElementById('menu').style.borderColor='#17a2b8';
+    
+    
+        }
+    
+        else{
+             document.getElementById("mobile__menu").classList.remove('overlay_clicked');  
+             document.getElementById("mobile__menu").classList.add('overlay');
+             document.getElementById('menu').innerText='menu';
+             document.getElementById('menu').style.backgroundColor='white';
+             document.getElementById('menu').style.color='black';
+    
+        }
+    
+    }
+    
+    
+    
+    </script>
+    
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,26 @@
+.workshopname{
+    color:blue;
+}
+@media only screen and (max-width: 800px) {
+    .ppt {
+      height: 0%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hidden-sm {
+      color:#ffffff;
+      height:0px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .ppt {
+      margin-top: 50px;
+      height: 35%;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    .row {
+      margin-top: -100px;
+    }
+}
