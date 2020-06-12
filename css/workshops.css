@@ -1,19 +1,14 @@
 .workshopname{
     color:blue;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .ppt {
       height: 0%;
+      margin-top: -120px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .hidden-sm {
-      color:#ffffff;
-      height:0px;
-    }
-}
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .ppt {
       margin-top: 50px;
       height: 35%;
